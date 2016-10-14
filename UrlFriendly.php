@@ -3,7 +3,7 @@
 *
 * Title: URLs Amigables / friendly URLs
 * Name: UrlFriendly.
-* Description: Crea o corrige los nombres de URLs amigables para los estándares de Google..
+* Description: Crea o corrige los nombres de URLs amigables para los estándares de Google.
 *
 * Copyright (c) 2016
 * Author: Agustin Rios Reyes.
@@ -88,17 +88,17 @@ class UrlFriendly
      *
      */
 	private $layStopWords = array( 
-						//|---------------------------Artículos------------| 
-						'el','la','los','las','un','una','uno','unas','unos',
-						//|---------------------------preposiciones--------|
-						'a','de','ante','bajo','cabe','con','contra','desde','durante','en','entre','hacia','hasta','mediante','para','por','según','sin','so','sobre','tras','versus','via',
-						//|---------------------------pronombres---------------------------|
-						'yo','me','mi','nos','nosotros','nosotras','conmigo','te','ti','tu','os','ustedes','vos','vosotras','vosotros','contigo','ella','ellas','ellos','ello','lo','les','se','si',
-						'aquellas','aquella','aquellos','aquel','esas','esa','esos','ese','esotra','esotro','esta','estas','estos','este','estotro','estotra','mia','mias','mio','mios','nuestra','nuestras',
-						'nuestro','nuestros','suya','suyas','suyo','suyos','tuya','tuyas','tuyo','tuyos','vuestra','vuestras','vuestros','vuestro','algo','alguien','alguna','algunas','alguno','algunos','cualesquiera',
-						'cualquiera','demas','mismas','misma','mismo','mismos','muchas','mucha','mucho','muchos','nada','nadie','ninguna','ningunas','ninguno','ningunos','otra','otro','otras','otros','poca','pocas','poco',
-						'pocos','quienquier','quienesquiera','quienquiera','tanta','tantas','tanto','tantos','toda','todas','todo','todos','ultima','ultimas','ultimo','ultimos','varios','varias','adonde','como','cual','cuales',
-						'cuando','cuanta','cuantas','cuanto','cuantos','donde','que','quien','quienes','cuya','cuyas','cuyo','cuyos');
+		//|---------------------------Artículos------------| 
+		'el','la','los','las','un','una','uno','unas','unos',
+		//|---------------------------preposiciones--------|
+		'a','de','ante','bajo','cabe','con','contra','desde','durante','en','entre','hacia','hasta','mediante','para','por','según','sin','so','sobre','tras','versus','via',
+		//|---------------------------pronombres---------------------------|
+		'yo','me','mi','nos','nosotros','nosotras','conmigo','te','ti','tu','os','ustedes','vos','vosotras','vosotros','contigo','ella','ellas','ellos','ello','lo','les','se','si',
+		'aquellas','aquella','aquellos','aquel','esas','esa','esos','ese','esotra','esotro','esta','estas','estos','este','estotro','estotra','mia','mias','mio','mios','nuestra','nuestras',
+		'nuestro','nuestros','suya','suyas','suyo','suyos','tuya','tuyas','tuyo','tuyos','vuestra','vuestras','vuestros','vuestro','algo','alguien','alguna','algunas','alguno','algunos','cualesquiera',
+		'cualquiera','demas','mismas','misma','mismo','mismos','muchas','mucha','mucho','muchos','nada','nadie','ninguna','ningunas','ninguno','ningunos','otra','otro','otras','otros','poca','pocas','poco',
+		'pocos','quienquier','quienesquiera','quienquiera','tanta','tantas','tanto','tantos','toda','todas','todo','todos','ultima','ultimas','ultimo','ultimos','varios','varias','adonde','como','cual','cuales',
+		'cuando','cuanta','cuantas','cuanto','cuantos','donde','que','quien','quienes','cuya','cuyas','cuyo','cuyos');
 
 	public function setDecode          ( $pboDecode           ){ $this->lboDecode           = $pboDecode;          }
 	public function setDecodeCharset   ( $pstDecodeCharset    ){ $this->lstDecodeCharset    = $pstDecodeCharset;   }
